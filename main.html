@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jahnavi Priya — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">JP<span class="dot">.</span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+    <div class="hero-content">
+      <div class="hero-image">
+        <img src="profile.jpg" alt="Jahnavi Priya Profile Photo">
+      </div>
+      <span class="hero-badge">👩‍💻 Open to Internships & Opportunities</span>
+      <h1 class="hero-name">
+        Jahnavi<br><span class="hero-name-accent">Priya</span>
+      </h1>
+      <p class="hero-tagline">Full-Stack Developer · Problem Solver · Clean UI Enthusiast</p>
+      <p class="hero-summary">Detail-oriented developer committed to delivering high-quality results. Strong team
+        collaborator with a continuous learning mindset.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/jahnavipriya05" target="_blank" class="social-link" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+          </svg>
+        </a>
+        <a href="https://www.linkedin.com/in/jahnavi-priya-geddada-a36152321" target="_blank" class="social-link"
+          aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+          </svg>
+        </a>
+        <a href="mailto:jahnvipriya1806@gmail.com" class="social-link" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+              d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label">01 / About</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">Crafting Experiences,<br><em>Not Just Code</em></h2>
+          <p>I'm Jahnavi Priya, a 3rd-year Computer Science student at NSRIT with a CGPA of 9.1. I build clean,
+            functional web applications that prioritize user experience and code quality.</p>
+          <p>My journey spans from writing first-principles C programs to building full-stack Flask applications —
+            always with an eye for clean UI and efficient solutions.</p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-icon">🌍</span>
+              <span>Languages: English, Telugu</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">🎨</span>
+              <span>Hobbies: Music, Drawing</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-icon">🎓</span>
+              <span>NSRIT — B.Tech CSE (2023–Present)</span>
+            </div>
+          </div>
+          <a href="#" class="btn-primary download-btn" download>
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
+            </svg>
+            Download Resume
+          </a>
+        </div>
+        <div class="about-card reveal">
+          <div class="card-inner">
+            <div class="stat-grid">
+              <div class="stat-box">
+                <span class="stat-num">9.1</span>
+                <span class="stat-label">CGPA</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num">5+</span>
+                <span class="stat-label">Certifications</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num">6+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num">3rd</span>
+                <span class="stat-label">Year CSE</span>
+              </div>
+            </div>
+            <div class="objective-box">
+              <p>"Detail-oriented and dedicated, committed to delivering high-quality work in collaborative
+                environments."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label">02 / Skills</div>
+      <h2 class="section-title reveal">My Toolkit</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <h3><span class="cat-icon">🌐</span> Web Development</h3>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Flask</span>
+            <span class="tag">SQL</span>
+            <span class="tag tag-learning">FastAPIs</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><span class="cat-icon">⚙️</span> Programming</h3>
+          <div class="skill-tags">
+            <span class="tag">C</span>
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><span class="cat-icon">🛠️</span> Tools</h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><span class="cat-icon">💡</span> Strengths</h3>
+          <div class="skill-tags">
+            <span class="tag">Responsive Design</span>
+            <span class="tag">Clean UI</span>
+            <span class="tag">Problem Solving</span>
+            <span class="tag">Team Collaboration</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label">03 / Projects</div>
+      <h2 class="section-title reveal">What I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-icon">🔥</div>
+            <div class="project-links">
+              <a href="https://trackforge-mcx7.onrender.com/" target="_blank" class="project-link" title="Live Demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                  <polyline points="15 3 21 3 21 9" />
+                  <line x1="10" y1="14" x2="21" y2="3" />
+                </svg>
+              </a>
+              <a href="https://github.com/jahnavipriya05" target="_blank" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                  <path
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">TrackForge</h3>
+          <p class="project-subtitle">Personal Project · Full-Stack Web App</p>
+          <p class="project-desc">A comprehensive platform to track study sessions and manage job/internship
+            applications — built to solve a real problem every student faces.</p>
+          <ul class="project-features">
+            <li>🔐 Authentication & secure sessions</li>
+            <li>📊 Dashboard with progress tracking</li>
+            <li>📱 Fully responsive UI</li>
+            <li>🚀 Deployed live on Render</li>
+          </ul>
+          <div class="project-stack">
+            <span class="stack-pill">Flask</span>
+            <span class="stack-pill">Python</span>
+            <span class="stack-pill">HTML/CSS</span>
+            <span class="stack-pill">JavaScript</span>
+            <span class="stack-pill">SQL</span>
+          </div>
+          <a href="https://trackforge-mcx7.onrender.com/" target="_blank" class="btn-primary btn-sm">View Live →</a>
+        </div>
+
+        <!-- Placeholder for future projects -->
+        <div class="project-card project-card-placeholder reveal">
+          <div class="placeholder-inner">
+            <span class="plus-icon">+</span>
+            <p>Currently working on FastAPIs & others</p>
+            <span class="placeholder-sub">Check GitHub for latest work</span>
+            <a href="https://github.com/jahnavipriya05" target="_blank" class="btn-outline btn-sm">Visit GitHub</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== EDUCATION ===================== -->
+  <section class="education section" id="education">
+    <div class="container">
+      <div class="section-label">04 / Education</div>
+      <h2 class="section-title reveal">Academic Journey</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">2023 – Present</span>
+            <h3>B.Tech — Computer Science & Engineering</h3>
+            <p class="timeline-inst">NSRIT (Narasimha Reddy Institute of Technology)</p>
+            <div class="timeline-badge">CGPA: 9.1 ⭐</div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">Intermediate</span>
+            <h3>MPC — Mathematics, Physics, Chemistry</h3>
+            <p class="timeline-inst">Sri Chaitanya Junior College</p>
+            <div class="timeline-badge">96.4% 🏆</div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-year">SSC</span>
+            <h3>Secondary School Certificate</h3>
+            <p class="timeline-inst">ZP High School</p>
+            <div class="timeline-badge">92.6% 🎖️</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CERTIFICATIONS ===================== -->
+  <section class="certifications section" id="certifications">
+    <div class="container">
+      <div class="section-label">05 / Certifications</div>
+      <h2 class="section-title reveal">Credentials</h2>
+      <div class="cert-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🖥️</div>
+          <div class="cert-info">
+            <h4>Full Stack Web Development</h4>
+            <span>Future Interns</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🐍</div>
+          <div class="cert-info">
+            <h4>Python</h4>
+            <span>EDX · SoloLearn</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🌍</div>
+          <div class="cert-info">
+            <h4>For Hackathon - EXO Hunter AI</h4>
+            <span>NASA</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">⚡</div>
+          <div class="cert-info">
+            <h4>C & MS Office</h4>
+            <span>Datapro</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🌿</div>
+          <div class="cert-info">
+            <h4>MERN Stack</h4>
+            <span>Workshop Certificate</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">☁️</div>
+          <div class="cert-info">
+            <h4>Cloud Computing</h4>
+            <span>Internship Certificate</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label">06 / Contact</div>
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <p class="contact-intro reveal">I'm open to internships, collaborations, and new opportunities. Feel free to reach
+        out!</p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a href="mailto:jahnvipriya1806@gmail.com" class="contact-item">
+            <div class="contact-item-icon">✉️</div>
+            <div>
+              <span class="contact-item-label">Email</span>
+              <span class="contact-item-value">jahnavipriya1806@gmail.com</span>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/jahnavi-priya-geddada-a36152321" target="_blank" class="contact-item">
+            <div class="contact-item-icon">💼</div>
+            <div>
+              <span class="contact-item-label">LinkedIn</span>
+              <span class="contact-item-value">Jahnavi Priya Geddada</span>
+            </div>
+          </a>
+          <a href="https://github.com/jahnavipriya05" target="_blank" class="contact-item">
+            <div class="contact-item-icon">🐙</div>
+            <div>
+              <span class="contact-item-label">GitHub</span>
+              <span class="contact-item-value">jahnavipriya05</span>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Jane Recruiter" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="hello@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="I'd love to discuss an opportunity with you..."
+              required></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message →</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">JP<span class="dot">.</span></div>
+      <p class="footer-copy">Designed & Built by <strong>Jahnavi Priya</strong> · 2026</p>
+      <div class="footer-socials">
+        <a href="https://github.com/jahnavipriya05" target="_blank" aria-label="GitHub">GH</a>
+        <a href="https://www.linkedin.com/in/jahnavi-priya-geddada-a36152321" target="_blank"
+          aria-label="LinkedIn">LI</a>
+        <a href="mailto:jahnvipriya1806@gmail.com" aria-label="Email">EM</a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
