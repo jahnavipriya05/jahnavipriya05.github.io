@@ -107,7 +107,7 @@
               <span>NSRIT — B.Tech CSE (2023–Present)</span>
             </div>
           </div>
-          <a href="./resume.pdf" class="btn-primary download-btn" download>
+          <a href="./base_resume.pdf" class="btn-primary download-btn" download>
             <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
               <path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z" />
             </svg>
@@ -238,6 +238,38 @@
             <span class="stack-pill">SQL</span>
           </div>
           <a href="https://trackforge-mcx7.onrender.com/" target="_blank" class="btn-primary btn-sm">View Live →</a>
+        </div>
+
+        <!-- Expense Tracker Project -->
+        <div class="project-card reveal">
+          <div class="project-card-header">
+            <div class="project-icon">💰</div>
+            <div class="project-links">
+              <a href="https://github.com/jahnavipriya05/expense-tracker-python" target="_blank" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+                  <path
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-subtitle">Personal Project · Core Python CLI App</p>
+          <p class="project-desc">A menu-driven command-line application to manage and track daily expenses — built to practise core Python concepts hands-on.</p>
+          <ul class="project-features">
+            <li>➕ Add & delete expenses easily</li>
+            <li>📋 View all recorded expenses</li>
+            <li>🧮 Calculate total spending at a glance</li>
+            <li>🖥️ Clean menu-driven CLI interface</li>
+          </ul>
+          <div class="project-stack">
+            <span class="stack-pill">Python</span>
+            <span class="stack-pill">Functions</span>
+            <span class="stack-pill">Lists</span>
+            <span class="stack-pill">Dictionaries</span>
+            <span class="stack-pill">Match Case</span>
+          </div>
+          <a href="https://github.com/jahnavipriya05/expense-tracker-python" target="_blank" class="btn-primary btn-sm">View on GitHub →</a>
         </div>
 
         <!-- Placeholder for future projects -->
@@ -401,8 +433,12 @@
             <textarea id="message" rows="5" placeholder="I'd love to discuss an opportunity with you..."
               required></textarea>
           </div>
-          <button type="submit" class="btn-primary btn-full">Send Message →</button>
+
+          <button type="submit" id="submitBtn" class="btn-primary btn-full">Send Message →</button>
+          <p id="formMessage"></p>
           <p class="form-note" id="formNote"></p>
+          
+
         </form>
       </div>
     </div>
@@ -421,6 +457,7 @@
       </div>
     </div>
   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="script.js"></script>
 </body>
 
